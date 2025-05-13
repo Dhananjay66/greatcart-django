@@ -58,3 +58,6 @@ $(document).ready(function() {
 }); 
 // jquery end
 
+setTimeout(function(){
+    $('#message').slideUp(300);
+}, 2000); 
