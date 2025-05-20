@@ -8,7 +8,11 @@
 {% include 'includes/alerts.html' %}
 <div class="container">
 	<div class="row">
+<<<<<<< HEAD
 	{% comment %} {% include 'includes/dashboard_sidebar.html' %} {% endcomment %}
+=======
+	{% include 'includes/dashboard_sidebar.html' %}
+>>>>>>> 88c44cc (Some Changes are done)
 	<main class="col-md-9">
 		<article class="card">
 		<header class="card-header">
@@ -23,15 +27,27 @@
 					<div class="card-body">
 						<h5 class="card-title">Total Orders</h5>
 						<h4>{{orders_count}}</h4>
+<<<<<<< HEAD
 						{% comment %} <a href="{% url 'my_orders' %}">View Orders</a> {% endcomment %}
 						<a href="#">View Orders</a>
+=======
+						<a href="{% url 'my_orders' %}">View Orders</a>
+>>>>>>> 88c44cc (Some Changes are done)
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="card" style="text-align:center;">
 					<div class="card-body">
+<<<<<<< HEAD
 						<img src="{{userprofile.profile_picture.url}}" alt="User Profile Picture" width="50" height="50" style="border-radius:50%;">
+=======
+						{% if userprofile.profile_picture %}
+        					<img src="{{ userprofile.profile_picture.url }}" alt="User Profile Picture" width="50" height="50" style="border-radius:50%;">
+   						{% else %}
+        					<img src="/media/default/default-user.png" alt="Default Profile Picture" width="50" height="50" style="border-radius:50%;">
+    					{% endif %}
+>>>>>>> 88c44cc (Some Changes are done)
 						<p class="mb-0">{{user.email}}</p>
 						<p>{{user.phone_number}}</p>
 					</div>
@@ -49,4 +65,8 @@
 
 </section>
 
+<<<<<<< HEAD
 {% endblock %}
+=======
+{% endblock %}
+>>>>>>> 88c44cc (Some Changes are done)

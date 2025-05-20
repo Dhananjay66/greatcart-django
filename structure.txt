@@ -1,0 +1,557 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 428A-1DED
+G:.
+¦   .env
+¦   .gitignore
+¦   db.sqlite3
+¦   manage.py
+¦   structure.txt
+¦   
++---accounts
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   forms.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   0002_alter_account_is_active.py
+¦   ¦   ¦   0003_alter_account_is_active_userprofile.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-313.pyc
+¦   ¦           0002_alter_account_is_active.cpython-313.pyc
+¦   ¦           0003_alter_account_is_active_userprofile.cpython-313.pyc
+¦   ¦           __init__.cpython-313.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           admin.cpython-313.pyc
+¦           apps.cpython-313.pyc
+¦           forms.cpython-313.pyc
+¦           models.cpython-313.pyc
+¦           urls.cpython-313.pyc
+¦           views.cpython-313.pyc
+¦           __init__.cpython-313.pyc
+¦           
++---carts
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   context_processors.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   0002_cartitem_products.py
+¦   ¦   ¦   0003_rename_products_cartitem_variations.py
+¦   ¦   ¦   0004_cartitem_user_alter_cart_date_added_and_more.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-313.pyc
+¦   ¦           0002_cartitem_products.cpython-313.pyc
+¦   ¦           0003_rename_products_cartitem_variations.cpython-313.pyc
+¦   ¦           0004_cartitem_user_alter_cart_date_added_and_more.cpython-313.pyc
+¦   ¦           __init__.cpython-313.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           admin.cpython-313.pyc
+¦           apps.cpython-313.pyc
+¦           context_processors.cpython-313.pyc
+¦           models.cpython-313.pyc
+¦           urls.cpython-313.pyc
+¦           views.cpython-313.pyc
+¦           __init__.cpython-313.pyc
+¦           
++---category
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   context_processors.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   0002_alter_category_slug.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-313.pyc
+¦   ¦           0002_alter_category_options.cpython-313.pyc
+¦   ¦           0002_alter_category_slug.cpython-313.pyc
+¦   ¦           __init__.cpython-313.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           admin.cpython-313.pyc
+¦           apps.cpython-313.pyc
+¦           context_processors.cpython-313.pyc
+¦           models.cpython-313.pyc
+¦           __init__.cpython-313.pyc
+¦           
++---greatcart
+¦   ¦   asgi.py
+¦   ¦   settings.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   wsgi.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---static
+¦   ¦   +---css
+¦   ¦   ¦       .DS_Store
+¦   ¦   ¦       bootstrap.css
+¦   ¦   ¦       responsive.css
+¦   ¦   ¦       responsive.css.map
+¦   ¦   ¦       ui.css
+¦   ¦   ¦       ui.css.map
+¦   ¦   ¦       
+¦   ¦   +---fonts
+¦   ¦   ¦   ¦   .DS_Store
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---fontawesome
+¦   ¦   ¦   ¦   ¦   .DS_Store
+¦   ¦   ¦   ¦   ¦   
+¦   ¦   ¦   ¦   +---css
+¦   ¦   ¦   ¦   ¦       .DS_Store
+¦   ¦   ¦   ¦   ¦       all.css
+¦   ¦   ¦   ¦   ¦       all.min.css
+¦   ¦   ¦   ¦   ¦       
+¦   ¦   ¦   ¦   +---webfonts
+¦   ¦   ¦   ¦           fa-brands-400.eot
+¦   ¦   ¦   ¦           fa-brands-400.svg
+¦   ¦   ¦   ¦           fa-brands-400.ttf
+¦   ¦   ¦   ¦           fa-brands-400.woff
+¦   ¦   ¦   ¦           fa-brands-400.woff2
+¦   ¦   ¦   ¦           fa-regular-400.eot
+¦   ¦   ¦   ¦           fa-regular-400.svg
+¦   ¦   ¦   ¦           fa-regular-400.ttf
+¦   ¦   ¦   ¦           fa-regular-400.woff
+¦   ¦   ¦   ¦           fa-regular-400.woff2
+¦   ¦   ¦   ¦           fa-solid-900.eot
+¦   ¦   ¦   ¦           fa-solid-900.svg
+¦   ¦   ¦   ¦           fa-solid-900.ttf
+¦   ¦   ¦   ¦           fa-solid-900.woff
+¦   ¦   ¦   ¦           fa-solid-900.woff2
+¦   ¦   ¦   ¦           
+¦   ¦   ¦   +---roboto
+¦   ¦   ¦           font-min.css
+¦   ¦   ¦           font.css
+¦   ¦   ¦           Roboto-Bold.ttf
+¦   ¦   ¦           Roboto-Light.ttf
+¦   ¦   ¦           Roboto-Medium.ttf
+¦   ¦   ¦           Roboto-Regular.ttf
+¦   ¦   ¦           Roboto-Thin.ttf
+¦   ¦   ¦           
+¦   ¦   +---images
+¦   ¦   ¦   ¦   favicon.png
+¦   ¦   ¦   ¦   favicon1.ico
+¦   ¦   ¦   ¦   logo.png
+¦   ¦   ¦   ¦   logo2.png
+¦   ¦   ¦   ¦   Screenshot 2025-05-06 145635.png
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---avatars
+¦   ¦   ¦   ¦       avatar1.jpg
+¦   ¦   ¦   ¦       avatar2.jpg
+¦   ¦   ¦   ¦       avatar3.jpg
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---banners
+¦   ¦   ¦   ¦       1.1.jpg
+¦   ¦   ¦   ¦       1.jpg
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦       flag-in.png
+¦   ¦   ¦   ¦       flag-kr.png
+¦   ¦   ¦   ¦       flag-tr.png
+¦   ¦   ¦   ¦       flag-usa.png
+¦   ¦   ¦   ¦       flag-vt.png
+¦   ¦   ¦   ¦       pay-american-ex.png
+¦   ¦   ¦   ¦       pay-bank.png
+¦   ¦   ¦   ¦       pay-mastercard.png
+¦   ¦   ¦   ¦       pay-visa-el.png
+¦   ¦   ¦   ¦       pay-visa.png
+¦   ¦   ¦   ¦       stars-active.svg
+¦   ¦   ¦   ¦       starts-disable.svg
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---items
+¦   ¦   ¦   ¦       .DS_Store
+¦   ¦   ¦   ¦       1.jpg
+¦   ¦   ¦   ¦       10.jpg
+¦   ¦   ¦   ¦       11.jpg
+¦   ¦   ¦   ¦       12-1.jpg
+¦   ¦   ¦   ¦       12-2.jpg
+¦   ¦   ¦   ¦       12.jpg
+¦   ¦   ¦   ¦       2.jpg
+¦   ¦   ¦   ¦       3.jpg
+¦   ¦   ¦   ¦       4.jpg
+¦   ¦   ¦   ¦       5.jpg
+¦   ¦   ¦   ¦       6.jpg
+¦   ¦   ¦   ¦       7.jpg
+¦   ¦   ¦   ¦       8.jpg
+¦   ¦   ¦   ¦       9.jpg
+¦   ¦   ¦   ¦       
+¦   ¦   ¦   +---misc
+¦   ¦   ¦           appstore.png
+¦   ¦   ¦           btn-paypal.png
+¦   ¦   ¦           cash.jpg
+¦   ¦   ¦           map.jpg
+¦   ¦   ¦           payment-bank.png
+¦   ¦   ¦           payment-card.png
+¦   ¦   ¦           payment-paypal.png
+¦   ¦   ¦           payments.png
+¦   ¦   ¦           playmarket.png
+¦   ¦   ¦           
+¦   ¦   +---js
+¦   ¦           .DS_Store
+¦   ¦           bootstrap.bundle.min.js
+¦   ¦           jquery-2.0.0.min.js
+¦   ¦           script.js
+¦   ¦           
+¦   +---__pycache__
+¦           settings.cpython-313.pyc
+¦           urls.cpython-313.pyc
+¦           views.cpython-313.pyc
+¦           wsgi.cpython-313.pyc
+¦           __init__.cpython-313.pyc
+¦           
++---GreatKart Images
+¦   ¦   cover.jpg
+¦   ¦   
+¦   +---Category
+¦   ¦       jackets.jpg
+¦   ¦       jeans.jpg
+¦   ¦       shirts.jpg
+¦   ¦       shoes.png
+¦   ¦       tshirts.jpg
+¦   ¦       
+¦   +---Products
+¦           ATX-Jeans.jpg
+¦           Blue-Shirt.jpg
+¦           Great-Tshirt.jpg
+¦           image1.jpg
+¦           image13.jpg
+¦           image2.jpg
+¦           jordan-true-flight-basketball-shoes.jpg
+¦           Mavi_jeans.jpg
+¦           Puma-Ferrari-Shoes.jpg
+¦           US-Polo-Assn_Jacket.jpg
+¦           Wrangler-Shirt.jpg
+¦           
++---media
+¦   ¦   greatkart-screenshot.png
+¦   ¦   greatkart-screenshot1.jpg
+¦   ¦   
+¦   +---default
+¦   ¦       default-user.png
+¦   ¦       
+¦   +---photo
+¦   ¦   +---categories
+¦   ¦   ¦       jackets.jpg
+¦   ¦   ¦       jeans.jpg
+¦   ¦   ¦       shirts.jpg
+¦   ¦   ¦       shoes.png
+¦   ¦   ¦       tshirts.jpg
+¦   ¦   ¦       
+¦   ¦   +---products
+¦   ¦           ATX-Jeans.jpg
+¦   ¦           Blue-Shirt.jpg
+¦   ¦           Great-Tshirt.jpg
+¦   ¦           jordan-true-flight-basketball-shoes.jpg
+¦   ¦           Mavi_jeans.jpg
+¦   ¦           Puma-Ferrari-Shoes.jpg
+¦   ¦           US-Polo-Assn_Jacket.jpg
+¦   ¦           Wrangler-Shirt.jpg
+¦   ¦           
+¦   +---store
+¦   ¦   +---products
+¦   ¦           image1.jpg
+¦   ¦           image13.jpg
+¦   ¦           image2.jpg
+¦   ¦           Profile-Pic-Demo.png
+¦   ¦           wrangler-indigo-t-shirt.jpg
+¦   ¦           
+¦   +---userprofile
+¦           default-user.png
+¦           Profile-Pic-Demo.png
+¦           Profile-Pic-Demo_eifH74A.png
+¦           Profile-Pic-Demo_NgbgEt0.png
+¦           Profile-Pic-Demo_vhx57HL.png
+¦           rathan-photo.jpg
+¦           rathan-photo1.jpg
+¦           
++---orders
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   forms.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-313.pyc
+¦   ¦           __init__.cpython-313.pyc
+¦   ¦           
+¦   +---__pycache__
+¦           admin.cpython-313.pyc
+¦           apps.cpython-313.pyc
+¦           forms.cpython-313.pyc
+¦           models.cpython-313.pyc
+¦           urls.cpython-313.pyc
+¦           views.cpython-313.pyc
+¦           __init__.cpython-313.pyc
+¦           
++---photos
+¦   +---categories
+¦   ¦       jackets.jpg
+¦   ¦       jeans.jpg
+¦   ¦       shirts.jpg
+¦   ¦       shoes.png
+¦   ¦       tshirts.jpg
+¦   ¦       
+¦   +---products
+¦           ATX-Jeans.jpg
+¦           Blue-Shirt.jpg
+¦           Great-Tshirt.jpg
+¦           jordan-true-flight-basketball-shoes.jpg
+¦           Mavi_jeans.jpg
+¦           Puma-Ferrari-Shoes.jpg
+¦           US-Polo-Assn_Jacket.jpg
+¦           Wrangler-Shirt.jpg
+¦           
++---static
+¦   +---admin
+¦       +---css
+¦       ¦   ¦   autocomplete.css
+¦       ¦   ¦   base.css
+¦       ¦   ¦   changelists.css
+¦       ¦   ¦   dashboard.css
+¦       ¦   ¦   forms.css
+¦       ¦   ¦   login.css
+¦       ¦   ¦   nav_sidebar.css
+¦       ¦   ¦   responsive.css
+¦       ¦   ¦   responsive_rtl.css
+¦       ¦   ¦   rtl.css
+¦       ¦   ¦   widgets.css
+¦       ¦   ¦   
+¦       ¦   +---vendor
+¦       ¦       +---select2
+¦       ¦               LICENSE-SELECT2.md
+¦       ¦               select2.css
+¦       ¦               select2.min.css
+¦       ¦               
+¦       +---img
+¦       ¦   ¦   calendar-icons.svg
+¦       ¦   ¦   icon-addlink.svg
+¦       ¦   ¦   icon-alert.svg
+¦       ¦   ¦   icon-calendar.svg
+¦       ¦   ¦   icon-changelink.svg
+¦       ¦   ¦   icon-clock.svg
+¦       ¦   ¦   icon-deletelink.svg
+¦       ¦   ¦   icon-no.svg
+¦       ¦   ¦   icon-unknown-alt.svg
+¦       ¦   ¦   icon-unknown.svg
+¦       ¦   ¦   icon-viewlink.svg
+¦       ¦   ¦   icon-yes.svg
+¦       ¦   ¦   inline-delete.svg
+¦       ¦   ¦   LICENSE
+¦       ¦   ¦   README.txt
+¦       ¦   ¦   search.svg
+¦       ¦   ¦   selector-icons.svg
+¦       ¦   ¦   sorting-icons.svg
+¦       ¦   ¦   tooltag-add.svg
+¦       ¦   ¦   tooltag-arrowright.svg
+¦       ¦   ¦   
+¦       ¦   +---gis
+¦       ¦           move_vertex_off.svg
+¦       ¦           move_vertex_on.svg
+¦       ¦           
+¦       +---js
+¦           ¦   actions.js
+¦           ¦   autocomplete.js
+¦           ¦   calendar.js
+¦           ¦   cancel.js
+¦           ¦   change_form.js
+¦           ¦   core.js
+¦           ¦   inlines.js
+¦           ¦   jquery.init.js
+¦           ¦   nav_sidebar.js
+¦           ¦   popup_response.js
+¦           ¦   prepopulate.js
+¦           ¦   prepopulate_init.js
+¦           ¦   SelectBox.js
+¦           ¦   SelectFilter2.js
+¦           ¦   urlify.js
+¦           ¦   
+¦           +---admin
+¦           ¦       DateTimeShortcuts.js
+¦           ¦       RelatedObjectLookups.js
+¦           ¦       
+¦           +---vendor
+¦               +---jquery
+¦               ¦       jquery.js
+¦               ¦       jquery.min.js
+¦               ¦       LICENSE.txt
+¦               ¦       
+¦               +---select2
+¦               ¦   ¦   LICENSE.md
+¦               ¦   ¦   select2.full.js
+¦               ¦   ¦   select2.full.min.js
+¦               ¦   ¦   
+¦               ¦   +---i18n
+¦               ¦           af.js
+¦               ¦           ar.js
+¦               ¦           az.js
+¦               ¦           bg.js
+¦               ¦           bn.js
+¦               ¦           bs.js
+¦               ¦           ca.js
+¦               ¦           cs.js
+¦               ¦           da.js
+¦               ¦           de.js
+¦               ¦           dsb.js
+¦               ¦           el.js
+¦               ¦           en.js
+¦               ¦           es.js
+¦               ¦           et.js
+¦               ¦           eu.js
+¦               ¦           fa.js
+¦               ¦           fi.js
+¦               ¦           fr.js
+¦               ¦           gl.js
+¦               ¦           he.js
+¦               ¦           hi.js
+¦               ¦           hr.js
+¦               ¦           hsb.js
+¦               ¦           hu.js
+¦               ¦           hy.js
+¦               ¦           id.js
+¦               ¦           is.js
+¦               ¦           it.js
+¦               ¦           ja.js
+¦               ¦           ka.js
+¦               ¦           km.js
+¦               ¦           ko.js
+¦               ¦           lt.js
+¦               ¦           lv.js
+¦               ¦           mk.js
+¦               ¦           ms.js
+¦               ¦           nb.js
+¦               ¦           ne.js
+¦               ¦           nl.js
+¦               ¦           pl.js
+¦               ¦           ps.js
+¦               ¦           pt-BR.js
+¦               ¦           pt.js
+¦               ¦           ro.js
+¦               ¦           ru.js
+¦               ¦           sk.js
+¦               ¦           sl.js
+¦               ¦           sq.js
+¦               ¦           sr-Cyrl.js
+¦               ¦           sr.js
+¦               ¦           sv.js
+¦               ¦           th.js
+¦               ¦           tk.js
+¦               ¦           tr.js
+¦               ¦           uk.js
+¦               ¦           vi.js
+¦               ¦           zh-CN.js
+¦               ¦           zh-TW.js
+¦               ¦           
+¦               +---xregexp
+¦                       LICENSE.txt
+¦                       xregexp.js
+¦                       xregexp.min.js
+¦                       
++---store
+¦   ¦   admin.py
+¦   ¦   apps.py
+¦   ¦   forms.py
+¦   ¦   models.py
+¦   ¦   tests.py
+¦   ¦   urls.py
+¦   ¦   views.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---migrations
+¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   0002_rename_image_product_images.py
+¦   ¦   ¦   0003_rename_product_decsription_product_decsription.py
+¦   ¦   ¦   0004_rename_decsription_product_description.py
+¦   ¦   ¦   0005_variation.py
+¦   ¦   ¦   0006_alter_product_description_alter_product_images_and_more.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           0001_initial.cpython-313.pyc
+¦   ¦           0002_rename_image_product_images.cpython-313.pyc
+¦   ¦           0003_rename_product_decsription_product_decsription.cpython-313.pyc
+¦   ¦           0004_rename_decsription_product_description.cpython-313.pyc
+¦   ¦           0005_variation.cpython-313.pyc
+¦   ¦           0006_alter_product_description_alter_product_images_and_more.cpython-313.pyc
+¦   ¦           __init__.cpython-313.pyc
+¦   ¦           
+¦   +---products
+¦   ¦       ATX-Jeans.jpg
+¦   ¦       ATX-Jeans_O3KeyGH.jpg
+¦   ¦       ATX-Jeans_y84kCMF.jpg
+¦   ¦       Wrangler-Shirt.jpg
+¦   ¦       
+¦   +---__pycache__
+¦           admin.cpython-313.pyc
+¦           apps.cpython-313.pyc
+¦           forms.cpython-313.pyc
+¦           models.cpython-313.pyc
+¦           urls.cpython-313.pyc
+¦           views.cpython-313.pyc
+¦           __init__.cpython-313.pyc
+¦           
++---templates
+    ¦   base.html
+    ¦   home.html
+    ¦   
+    +---accounts
+    ¦       account_verification_email.html
+    ¦       change_password.html
+    ¦       dashboard.html
+    ¦       edit_profile.html
+    ¦       forgotPassword.html
+    ¦       login.html
+    ¦       my_orders.html
+    ¦       order_detail.html
+    ¦       register.html
+    ¦       resetPassword.html
+    ¦       reset_password_email.html
+    ¦       
+    +---includes
+    ¦       alerts.html
+    ¦       dashboard_sidebar.html
+    ¦       footer.html
+    ¦       navbar.html
+    ¦       
+    +---orders
+    ¦       order_complete.html
+    ¦       order_recieved_email.html
+    ¦       payments.html
+    ¦       
+    +---store
+            cart.html
+            checkout.html
+            product_detail.html
+            store.html
+            
